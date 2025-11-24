@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+src/node_modules/
+
+# Build output
+src/build/
+src/dist/
+
+# Environment variables
+.env.*.local
+src/.env
+src/.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
+config.bat
